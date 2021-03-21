@@ -1,0 +1,5 @@
+/* for hover, focus, input and so on */
+
+nav li:hover {
+  color: black;
+}

@@ -14,10 +14,3 @@ arrayOfGrades.forEach(element => {
   total = total + element;
   console.log(total);
 });
-
-//////// TODO
-//fix this one without making a second variable inside the function
-let totalNew = arrayOfGrades.forEach((element, index) => {
-  element[0] += arrayOfGrades[index + 1];
-});
-console.log(totalNew);

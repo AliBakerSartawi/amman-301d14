@@ -1,0 +1,33 @@
+/* the layout is here */
+/* usually, the floats */
+
+header {
+  height: 100px;
+}
+
+footer {
+  height: 100px;
+}
+
+section {
+  overflow: auto;
+  margin: auto;
+
+}
+
+div {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: 5% auto;
+}
+
+@media (min-width: 900px) and (max-width: 1500px) {
+  section {
+    display: table;
+  }
+
+  div {
+    float: left;
+  }
+}

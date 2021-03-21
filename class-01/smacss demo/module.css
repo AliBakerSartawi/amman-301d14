@@ -1,0 +1,23 @@
+/* color of buttons and whatnot, 
+things that will be used many times */
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  background-color: lightseagreen;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0.5%;
+  width: 100px;
+  color: whitesmoke;
+}

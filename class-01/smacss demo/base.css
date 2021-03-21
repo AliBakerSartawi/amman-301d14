@@ -1,0 +1,15 @@
+/* basic design 
+(global styles like some fonts and colors 
+and theming for the website */
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}

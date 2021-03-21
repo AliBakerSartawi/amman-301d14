@@ -1,0 +1,10 @@
+/* for extensive theming, or for different than normal  */
+/* or put the theme here instead of the base */
+
+body {
+  background-color: peachpuff;
+}
+
+header {
+  background-color: beige;
+}
