@@ -33,12 +33,12 @@ arrLargeNum.sort(compareFunction); //this should sort the array number's by amou
 const peopleObj = [
   { name: 'Tamim', position: 'student'},
   { name: 'batool', position: 'TA'},
-  { name: 'batool', position: 'student'}
+  { name: 'batool', position: 'student'},
   { name: 'Sameh', position: 'TA'},
-]
+];
 
 peopleObj.sort((a) => {
-  if(a.position.toLocaleLowerCase() === 'TA'){ // toLowerCase to prevent sorting errors caused by typo mistakes 
+  if(a.position.toLowerCase() === 'TA'){ // toLowerCase to prevent sorting errors caused by typo mistakes 
     return -1; //will send it to the top, gives it a lower index (beginning of array)
     // 1 would send the value to the next index and compare with the following value 
     // 0 to keep indices as is
